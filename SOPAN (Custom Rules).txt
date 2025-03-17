@@ -1,0 +1,33 @@
+! Title: SOPAN's Custom Filters
+!
+! YouTube SHOTS Blocker -----------------------------
+youtube.com##[is-shorts]
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-renderer,ytd-channel-renderer,yt-showing-results-for-renderer),ytd-video-renderer:has([aria-label="Shorts"])),ytd-secondary-search-container-renderer
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+!
+! 0XXX - Logo & BG Blocker --------------------------
+||0xxx.ws/images/logo.png
+||0xxx.ws/images/0xxx.jpg
+||0xxx.nu/images/logo.png
+||0xxx.nu/images/0xxx.jpg
+||0xxx.me/images/logo.png
+||0xxx.me/images/0xxx.jpg
+!
+! Facebook Filters: ---------------------------------
+! Stories:
+facebook.com##div[aria-label="Stories"]
+! Video button:
+facebook.com##a[href="https://www.facebook.com/watch/"]
+! marketplace button:
+facebook.com##a[href="https://www.facebook.com/marketplace/"]
+! Reels
+facebook.com##div[class]:has(> a[href\^="https://www.facebook.com/reel/"])
+! All buttons at top left of menu:
+!facebook.com##div[role="navigation"] > ul> li
+! Menu:
+!facebook.com##div[aria-label="Menu"]
