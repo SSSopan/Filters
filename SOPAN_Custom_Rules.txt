@@ -21,13 +21,7 @@ www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"
 ! Facebook Filters: ---------------------------------
 ! Stories:
 facebook.com##div[aria-label="Stories"]
-! Video button:
-facebook.com##a[href="https://www.facebook.com/watch/"]
-! marketplace button:
-facebook.com##a[href="https://www.facebook.com/marketplace/"]
 ! Reels
 facebook.com##div[class]:has(> a[href\^="https://www.facebook.com/reel/"])
 ! All buttons at top left of menu:
-!facebook.com##div[role="navigation"] > ul> li
-! Menu:
-!facebook.com##div[aria-label="Menu"]
+facebook.com##div[role="navigation"] > ul> li
