@@ -25,3 +25,6 @@ facebook.com##div[aria-label="Stories"]
 facebook.com##div[class]:has(> a[href\^="https://www.facebook.com/reel/"])
 ! All buttons at top left of menu:
 facebook.com##div[role="navigation"] > ul> li
+!
+! RaiDrive Ads:
+||ads.raidrive.com^
