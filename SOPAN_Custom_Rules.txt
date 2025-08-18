@@ -18,6 +18,9 @@ www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"
 ||0xxx.me/images/logo.png
 ||0xxx.me/images/0xxx.jpg
 !
+! PornoLAB LOGO BLocker -----------------------------
+pornolab.net###logo
+!
 ! Facebook Filters: ---------------------------------
 ! Stories:
 facebook.com##div[aria-label="Stories"]
@@ -28,3 +31,4 @@ facebook.com##div[role="navigation"] > ul> li
 !
 ! RaiDrive Ads:
 ||ads.raidrive.com^
+
