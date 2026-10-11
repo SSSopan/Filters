@@ -9,6 +9,10 @@ youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-r
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
 www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+! Hide YouTube Playables section
+youtube.com##ytd-rich-section-renderer:has(a[href^="/playables"])
+! Alternative selector for the Playables shelf
+youtube.com##ytd-rich-section-renderer:has([is-mini-game-card-shelf])
 !
 ! 0XXX - Logo & BG Blocker --------------------------
 ||0xxx.ws/images/logo.png
